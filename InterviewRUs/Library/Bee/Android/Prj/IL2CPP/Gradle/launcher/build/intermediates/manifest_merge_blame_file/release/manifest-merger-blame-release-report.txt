@@ -1,0 +1,215 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.Plutonites.InterviewRUs"
+4    android:installLocation="auto"
+5    android:versionCode="1"
+6    android:versionName="0.1" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="29"
+9-->C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="32" />
+10-->C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
+11
+12    <supports-screens
+12-->C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:3-163
+13        android:anyDensity="true"
+13-->C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:135-160
+14        android:largeScreens="true"
+14-->C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:78-105
+15        android:normalScreens="true"
+15-->C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:49-77
+16        android:smallScreens="true"
+16-->C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:21-48
+17        android:xlargeScreens="true" />
+17-->C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:106-134
+18
+19    <supports-gl-texture android:name="GL_KHR_texture_compression_astc_ldr" />
+19-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:5-79
+19-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:26-76
+20
+21    <uses-permission android:name="android.permission.INTERNET" />
+21-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:12:5-67
+21-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:12:22-64
+22    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+22-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:13:5-79
+22-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:13:22-76
+23    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+23-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:14:5-71
+23-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:14:22-68
+24    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+24-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:15:5-80
+24-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:15:22-77
+25
+26    <uses-feature
+26-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:17:5-20:31
+27        android:name="android.hardware.vr.headtracking"
+27-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:18:9-56
+28        android:required="true"
+28-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:19:9-32
+29        android:version="1" />
+29-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:20:9-28
+30    <uses-feature android:glEsVersion="0x00030000" />
+30-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:21:5-54
+30-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:21:19-51
+31    <uses-feature
+31-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:22:5-24:36
+32        android:name="android.hardware.microphone"
+32-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:23:9-51
+33        android:required="false" />
+33-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:24:9-33
+34    <uses-feature
+34-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:25:5-27:36
+35        android:name="android.hardware.touchscreen"
+35-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:26:9-52
+36        android:required="false" />
+36-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:27:9-33
+37    <uses-feature
+37-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:28:5-30:36
+38        android:name="android.hardware.touchscreen.multitouch"
+38-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:29:9-63
+39        android:required="false" />
+39-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:30:9-33
+40    <uses-feature
+40-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:31:5-33:36
+41        android:name="android.hardware.touchscreen.multitouch.distinct"
+41-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:32:9-72
+42        android:required="false" />
+42-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:33:9-33
+43
+44    <application
+44-->C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:3-83
+45        android:allowBackup="false"
+45-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:36:9-36
+46        android:extractNativeLibs="true"
+46-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:37:9-41
+47        android:icon="@mipmap/app_icon"
+47-->C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:49-80
+48        android:label="@string/app_name"
+48-->C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:16-48
+49        android:networkSecurityConfig="@xml/network_sec_config" >
+49-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:40:9-64
+50        <meta-data
+50-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:41:9-43:37
+51            android:name="unityplayer.SkipPermissionsDialog"
+51-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:42:13-61
+52            android:value="false" />
+52-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:43:13-34
+53        <meta-data
+53-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:44:9-46:39
+54            android:name="com.samsung.android.vr.application.mode"
+54-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:45:13-67
+55            android:value="vr_only" />
+55-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:46:13-36
+56        <meta-data
+56-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:47:9-49:47
+57            android:name="com.oculus.supportedDevices"
+57-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:48:13-55
+58            android:value="quest2|questpro" />
+58-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:49:13-44
+59        <meta-data
+59-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:50:9-52:33
+60            android:name="unity.splash-mode"
+60-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:51:13-45
+61            android:value="0" />
+61-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:52:13-30
+62        <meta-data
+62-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:53:9-55:36
+63            android:name="unity.splash-enable"
+63-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:54:13-47
+64            android:value="True" />
+64-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:55:13-33
+65        <meta-data
+65-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:56:9-58:36
+66            android:name="unity.launch-fullscreen"
+66-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:57:13-51
+67            android:value="True" />
+67-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:58:13-33
+68        <meta-data
+68-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:59:9-61:37
+69            android:name="unity.allow-resizable-window"
+69-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:60:13-56
+70            android:value="False" />
+70-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:61:13-34
+71        <meta-data
+71-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:62:9-64:50
+72            android:name="notch.config"
+72-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:63:13-40
+73            android:value="portrait|landscape" />
+73-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:64:13-47
+74        <meta-data
+74-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:65:9-67:36
+75            android:name="unity.auto-report-fully-drawn"
+75-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:66:13-57
+76            android:value="true" />
+76-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:67:13-33
+77
+78        <activity
+78-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:69:9-92:20
+79            android:name="com.unity3d.player.UnityPlayerActivity"
+79-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:70:13-66
+80            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|uiMode|density"
+80-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:71:13-122
+81            android:excludeFromRecents="true"
+81-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:72:13-46
+82            android:exported="true"
+82-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:73:13-36
+83            android:hardwareAccelerated="false"
+83-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:74:13-48
+84            android:launchMode="singleTask"
+84-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:75:13-44
+85            android:resizeableActivity="false"
+85-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:76:13-47
+86            android:screenOrientation="landscape"
+86-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:77:13-50
+87            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+87-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:78:13-77
+88            <intent-filter>
+88-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:79:13-84:29
+89                <category android:name="android.intent.category.LAUNCHER" />
+89-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:80:17-77
+89-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:80:27-74
+90                <category android:name="com.oculus.intent.category.VR" />
+90-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:81:17-74
+90-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:81:27-71
+91
+92                <action android:name="android.intent.action.MAIN" />
+92-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:83:17-69
+92-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:83:25-66
+93            </intent-filter>
+94
+95            <meta-data
+95-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:86:13-88:40
+96                android:name="com.oculus.vr.focusaware"
+96-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:87:17-56
+97                android:value="true" />
+97-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:88:17-37
+98            <meta-data
+98-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:89:13-91:40
+99                android:name="notch_support"
+99-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:90:17-45
+100                android:value="true" />
+100-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:91:17-37
+101        </activity>
+102
+103        <meta-data
+103-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:94:9-96:36
+104            android:name="com.unity.xr.oculus.LowOverheadMode"
+104-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:95:13-63
+105            android:value="true" />
+105-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:96:13-33
+106        <meta-data
+106-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:97:9-99:37
+107            android:name="com.unity.xr.oculus.LateLatching"
+107-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:98:13-60
+108            android:value="false" />
+108-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:99:13-34
+109        <meta-data
+109-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:100:9-102:37
+110            android:name="com.unity.xr.oculus.LateLatchingDebug"
+110-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:101:13-65
+111            android:value="false" />
+111-->[:unityLibrary] C:\Users\JT\Documents\GitHub\PlutoHacks23\InterviewRUs\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:102:13-34
+112    </application>
+113
+114</manifest>
