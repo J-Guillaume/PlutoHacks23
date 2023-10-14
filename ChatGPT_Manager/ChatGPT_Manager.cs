@@ -2,10 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using OpenAI;
+using System.Diagnostics;
 
-public class ChatGPTManager : MonoBehavior
+public class ChatGPTManager : MonoBehaviour
 {
-    private OpenAIApi openAI = new OpenAIApi();
+
+
+    public OnResponseEvent OnResponse;
+
+    [System.Serializable]
+    public class OnResponseEvent : UnityEngine.Events.UnityEvent<string> { }
+
+    private OpenAIApi openAI = new OpenAIApi("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");
     private List<ChatMessage> messages = new List<ChatMessage>();
 
     public async void AskChatGPT(string newText)
@@ -22,16 +30,21 @@ public class ChatGPTManager : MonoBehavior
 
         var response = await openAI.CreateChatCompletion(request);
 
-        if(response.Choices != null && response.Choices.Count > 0)
+
+
+        if (response.Choices != null && response.Choices.Count > 0)
         {
+            // log these 2 lines
             var chatResponse = response.Choices[0].Message;
-            message.Add(chatResponse);
+            messages.Add(chatResponse);
 
             Debug.Log(chatResponse.Content);
+
+            OnResponse.Invoke(chatResponse.Content);
         }
 
-
     }
+
 
     // Start called before first frame update
     void Start()
@@ -39,8 +52,10 @@ public class ChatGPTManager : MonoBehavior
 
     }
 
+
     void update()
     {
 
     }
+
 }
